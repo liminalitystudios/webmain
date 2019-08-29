@@ -1,0 +1,101 @@
+﻿
+<!-- To propergate functionality on every page in static pages this page uses a dynamic template,
+	and must be edited in Microsoft Expressioins rather thatn Visual Studio becaue of the need
+	for the metafile data. We are currently working on an extensiablity option for Visual Studio
+	for future use.
+	
+	1. The site must be edited from the staging directory on the lab drive in Microsoft Extensions
+	using the dymanic template for site wide options.
+	2. The site is then saved and published in the GitHub directory located at T:\GitHub\profiles\
+	liminalitystudios\webmain
+	3. Using the GitHub desktop, publish the changes to the main github site. The repository to
+	publish to is the dev-core repo.
+	4. After the site has been tested localy with no issues, publish the changes as described above.
+	5. Publish the changes from the local device to the github repository using the desktop version
+	to the dev-core repo.
+	6. Create a pull request to merge the changes from the dev-core repo to the release repo.
+	
+-->
+	
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Liminality Studios Offical Website" />
+<meta name="author" content="Liminality Studios Developer Group" />
+<meta name="keywords" content="Liminality Studios, Liminality, Technology, Virtual Novel, Games, Production" />
+
+<!-- #BeginEditable "doctitle" -->
+    <title>Liminality Studios: A Technology Company</title>
+    
+<!-- #EndEditable -->
+
+<!-- The new configuration uses Bootstrap version 4.3.1 which is an upgrade from version 3.1.x
+-->
+
+<link href="lib-new/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+<link href="lib-new/css/site.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+    	<div class="container">
+        	<a class="navbar-brand" href="index.html">Liminality Studios</a>
+        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        	    <span class="navbar-toggler-icon"></span>
+        	</button>
+        	<div class="collapse navbar-collapse" id="navbarCollapse">
+        	    <ul class="navbar-nav mr-auto">
+        	        <li><a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a></li>
+        	        <li><a class="nav-link" href="news.html">NEWS <span class="sr-only">(current)</span></a></li>
+        	        <li><a class="nav-link" href="projects.html">PROJECTS <span class="sr-only">(current)</span></a></li>
+        	        <li><a class="nav-link" href="#">BLOG <span class="sr-only">(current)</span></a></li>
+        	        <li><a class="nav-link" href="about.html">ABOUT <span class="sr-only">(current)</span></a></li>
+        	        <li><a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a></li>
+        	    </ul>
+        	</div>
+        	<div class="collaspe navbar-collapse" id="navbarCollaspe">
+        		<ul class="navbar-nav mr-auto">
+        		<li><a href="http://www.facebook.com/liminalitystudios"><img src="lib-new/img/social/Facebook/iconfinder_Social-media_Facebook_4362964_128x128.png" alt="Facebook" width="28.5" height="28.5" />
+        			<span class="sr-only">(current)</span></a></li>
+        			<li><a href="http://www.twitter.com/liminalitystu"><img src="lib-new/img/social/Twitter/iconfinder_Social-media_Twitter_4362955_128x128.png" alt="Twitter" width="28.5" height="28.5" />
+        			<span class="sr-only">(current)</span></a></li>
+        			<li><a href="http://www.pinterest.com/liminalitystudios"><img src="lib/img/social-md/pinterest.png" alt="Pinterest" width="28.5" height="28.5" />
+        			<span class="sr-only">(current)</span></a></li>
+        			<li><a href="http://instagram.com/liminalitystudios"><img src="lib/img/social-md/instagram.png" alt="Instagram" width="28.5" height="28.5"/>
+        			<span class="sr-only">(current)</span></a></li>
+        			<li><a href="http://www.linkedin.com"><img src="lib-new/img/social/LinkedIn/iconfinder_Social-media_LinkedIn_4362961_128x128.png" alt="Linkedin" width="28.5" height="28.5" />
+        			<span class="sr-only">(current)</span></a></li>
+        			<li><a href="http://liminalitystudios.azurewebsites.net/blog"><img src="lib-new/img/brand/microsoft-logo/iconfinder_microsoft_246000_128x128.png" alt="Blog" width="28.5" height="28.5" />
+        			<span class="sr-only">(current)</span></a></li>
+        		</ul>
+        	</div>
+    	</div>
+    </nav>
+
+
+<!-- #BeginEditable "body" -->
+
+<div>
+
+</div>
+
+<!-- #EndEditable -->
+
+<footer class="navbar navbar-nav fixed-bottom" style="background:black; color:white">
+
+	<div class="copyright">
+	<ul>
+		<li class="text-capitalize text-center active">&copy; 2006-2018 Liminality Studios, All Rights Reserved.</p>
+	</ul>
+	</div>
+</footer>
+
+<script src="lib-new/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
